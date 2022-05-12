@@ -1,11 +1,14 @@
 
 
 #include<iostream>
+
 #include<fstream>
 
 using namespace std;	
-	int main()
-	{
+
+int main()
+
+{
 		
 		ofstream outFile;
 		
@@ -14,6 +17,7 @@ using namespace std;
 		
 		outFile.open( outputFileName , ios :: out );
 		
+
 		if ( ! outFile ) 
 		{
 			cout << "Cant't open this file " << outputFileName << '\n';
